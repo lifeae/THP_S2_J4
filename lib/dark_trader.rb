@@ -61,7 +61,6 @@ end
 
 def perform
   bonjour()
-  scrap_prices()
   merge(symbols_text(scrap_symbols),prices_without_dollars_tof(prices_text(scrap_prices)))
 end
 
